@@ -1,0 +1,344 @@
+{
+  "kc1 -> jm1": {
+    "report": {
+      "0": {
+        "precision": 0.8542614367865419,
+        "recall": 0.8965858931627781,
+        "f1-score": 0.8749120956399437,
+        "support": 11101
+      },
+      "1": {
+        "precision": 0.2607855763039279,
+        "recall": 0.19258202567760344,
+        "f1-score": 0.2215536105032823,
+        "support": 2103
+      },
+      "accuracy": 0.7844592547712814,
+      "macro avg": {
+        "precision": 0.5575235065452349,
+        "recall": 0.5445839594201908,
+        "f1-score": 0.548232853071613,
+        "support": 13204
+      },
+      "weighted avg": {
+        "precision": 0.7597385850298819,
+        "recall": 0.7844592547712814,
+        "f1-score": 0.7708517431526368,
+        "support": 13204
+      }
+    },
+    "cm": [
+      [
+        9953,
+        1148
+      ],
+      [
+        1698,
+        405
+      ]
+    ],
+    "roc_auc": 0.5984654666274127,
+    "common_features": [
+      "loc",
+      "v(g)",
+      "ev(g)",
+      "iv(g)",
+      "n",
+      "v",
+      "l",
+      "d",
+      "i",
+      "e",
+      "b",
+      "t",
+      "lOCode",
+      "lOComment",
+      "lOBlank",
+      "locCodeAndComment",
+      "uniq_Op",
+      "uniq_Opnd",
+      "total_Op",
+      "total_Opnd",
+      "branchCount"
+    ]
+  },
+  "kc1 -> pc1": {
+    "report": {
+      "0": {
+        "precision": 0.939203354297694,
+        "recall": 0.8682170542635659,
+        "f1-score": 0.9023162134944612,
+        "support": 1032
+      },
+      "1": {
+        "precision": 0.12258064516129032,
+        "recall": 0.24675324675324675,
+        "f1-score": 0.16379310344827586,
+        "support": 77
+      },
+      "accuracy": 0.8250676284941388,
+      "macro avg": {
+        "precision": 0.5308919997294922,
+        "recall": 0.5574851505084063,
+        "f1-score": 0.5330546584713686,
+        "support": 1109
+      },
+      "weighted avg": {
+        "precision": 0.882503671156573,
+        "recall": 0.8250676284941388,
+        "f1-score": 0.8510391355201092,
+        "support": 1109
+      }
+    },
+    "cm": [
+      [
+        896,
+        136
+      ],
+      [
+        58,
+        19
+      ]
+    ],
+    "roc_auc": 0.5834214235377027,
+    "common_features": [
+      "loc",
+      "v(g)",
+      "ev(g)",
+      "lOCode",
+      "lOComment",
+      "lOBlank",
+      "locCodeAndComment",
+      "uniq_Op",
+      "uniq_Opnd",
+      "total_Op",
+      "total_Opnd",
+      "branchCount"
+    ]
+  },
+  "jm1 -> kc1": {
+    "report": {
+      "0": {
+        "precision": 0.8527093596059113,
+        "recall": 0.9708356702187325,
+        "f1-score": 0.907946498819827,
+        "support": 1783
+      },
+      "1": {
+        "precision": 0.34177215189873417,
+        "recall": 0.08282208588957055,
+        "f1-score": 0.1333333333333333,
+        "support": 326
+      },
+      "accuracy": 0.833570412517781,
+      "macro avg": {
+        "precision": 0.5972407557523227,
+        "recall": 0.5268288780541516,
+        "f1-score": 0.5206399160765802,
+        "support": 2109
+      },
+      "weighted avg": {
+        "precision": 0.7737309197232466,
+        "recall": 0.833570412517781,
+        "f1-score": 0.7882101821064098,
+        "support": 2109
+      }
+    },
+    "cm": [
+      [
+        1731,
+        52
+      ],
+      [
+        299,
+        27
+      ]
+    ],
+    "roc_auc": 0.719688159130713,
+    "common_features": [
+      "loc",
+      "v(g)",
+      "ev(g)",
+      "iv(g)",
+      "n",
+      "v",
+      "l",
+      "d",
+      "i",
+      "e",
+      "b",
+      "t",
+      "lOCode",
+      "lOComment",
+      "lOBlank",
+      "locCodeAndComment",
+      "uniq_Op",
+      "uniq_Opnd",
+      "total_Op",
+      "total_Opnd",
+      "branchCount"
+    ]
+  },
+  "jm1 -> pc1": {
+    "report": {
+      "0": {
+        "precision": 0.935395814376706,
+        "recall": 0.9961240310077519,
+        "f1-score": 0.9648052557484749,
+        "support": 1032
+      },
+      "1": {
+        "precision": 0.6,
+        "recall": 0.07792207792207792,
+        "f1-score": 0.1379310344827586,
+        "support": 77
+      },
+      "accuracy": 0.9323715058611362,
+      "macro avg": {
+        "precision": 0.767697907188353,
+        "recall": 0.5370230544649149,
+        "f1-score": 0.5513681451156167,
+        "support": 1109
+      },
+      "weighted avg": {
+        "precision": 0.9121086388068176,
+        "recall": 0.9323715058611362,
+        "f1-score": 0.9073937904306569,
+        "support": 1109
+      }
+    },
+    "cm": [
+      [
+        1028,
+        4
+      ],
+      [
+        71,
+        6
+      ]
+    ],
+    "roc_auc": 0.7114605355884425,
+    "common_features": [
+      "loc",
+      "v(g)",
+      "ev(g)",
+      "lOCode",
+      "lOComment",
+      "lOBlank",
+      "locCodeAndComment",
+      "uniq_Op",
+      "uniq_Opnd",
+      "total_Op",
+      "total_Opnd",
+      "branchCount"
+    ]
+  },
+  "pc1 -> kc1": {
+    "report": {
+      "0": {
+        "precision": 0.8456057007125891,
+        "recall": 0.9983174425126192,
+        "f1-score": 0.9156378600823046,
+        "support": 1783
+      },
+      "1": {
+        "precision": 0.25,
+        "recall": 0.003067484662576687,
+        "f1-score": 0.0060606060606060615,
+        "support": 326
+      },
+      "accuracy": 0.8444760550023708,
+      "macro avg": {
+        "precision": 0.5478028503562946,
+        "recall": 0.500692463587598,
+        "f1-score": 0.46084923307145537,
+        "support": 2109
+      },
+      "weighted avg": {
+        "precision": 0.7535395753297991,
+        "recall": 0.8444760550023708,
+        "f1-score": 0.7750393845910416,
+        "support": 2109
+      }
+    },
+    "cm": [
+      [
+        1780,
+        3
+      ],
+      [
+        325,
+        1
+      ]
+    ],
+    "roc_auc": 0.5060403469715685,
+    "common_features": [
+      "loc",
+      "v(g)",
+      "ev(g)",
+      "lOCode",
+      "lOComment",
+      "locCodeAndComment",
+      "lOBlank",
+      "uniq_Op",
+      "uniq_Opnd",
+      "total_Op",
+      "total_Opnd",
+      "branchCount"
+    ]
+  },
+  "pc1 -> jm1": {
+    "report": {
+      "0": {
+        "precision": 0.8424657534246576,
+        "recall": 0.9972074587874966,
+        "f1-score": 0.913328658058661,
+        "support": 11101
+      },
+      "1": {
+        "precision": 0.515625,
+        "recall": 0.015691868758915834,
+        "f1-score": 0.03045685279187817,
+        "support": 2103
+      },
+      "accuracy": 0.8408815510451378,
+      "macro avg": {
+        "precision": 0.6790453767123288,
+        "recall": 0.5064496637732062,
+        "f1-score": 0.4718927554252696,
+        "support": 13204
+      },
+      "weighted avg": {
+        "precision": 0.7904098533601275,
+        "recall": 0.8408815510451378,
+        "f1-score": 0.7727137378469037,
+        "support": 13204
+      }
+    },
+    "cm": [
+      [
+        11070,
+        31
+      ],
+      [
+        2070,
+        33
+      ]
+    ],
+    "roc_auc": 0.6503149892079395,
+    "common_features": [
+      "loc",
+      "v(g)",
+      "ev(g)",
+      "lOCode",
+      "lOComment",
+      "locCodeAndComment",
+      "lOBlank",
+      "uniq_Op",
+      "uniq_Opnd",
+      "total_Op",
+      "total_Opnd",
+      "branchCount"
+    ]
+  }
+}
