@@ -1,0 +1,5 @@
+file,loc,v(g),branchCount,uniq_Op,total_Op,total_Opnd,imports_count,includes_count,null_checks,pointer_ops,brace_depth,py_max_indent,bug_type
+sample_project\a.py,1,0,0,1,1,1,1,0,0,False,0,16,general/maintainability
+sample_project\c.c,1,0,0,1,1,1,0,2,0,True,2,0,general/maintainability
+sample_project\d.cpp,1,0,0,1,1,1,0,2,0,False,4,0,logic/complexity
+sample_project\GraphAlgo.java,1,0,0,1,1,1,1,0,0,False,5,0,logic/complexity

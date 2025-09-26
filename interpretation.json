@@ -1,0 +1,84 @@
+{
+  "file": "sample_project/GraphAlgo.java",
+  "overall_assessment": {
+    "quality_score": 80.07541094311938,
+    "band": "Good",
+    "band_info": {
+      "min": 70,
+      "max": 84,
+      "color": "\ud83d\udfe1",
+      "action": "Minor improvements needed"
+    },
+    "bug_probability": 0.28463698652686586,
+    "risk_level": "MEDIUM",
+    "confidence": "MEDIUM"
+  },
+  "risk_analysis": {
+    "model_risk": 0.13947212339816425,
+    "structural_risk": 0.059773767170641826,
+    "dominant_factor": "model",
+    "loc_risk": "LOW",
+    "complexity_risk": "LOW",
+    "coupling_risk": "LOW"
+  },
+  "bug_type_analysis": {
+    "heuristic_prediction": "historical/model-risk",
+    "supervised_prediction": "race_condition",
+    "confidence": 0.6075,
+    "agreement": false,
+    "explanation": "Concurrency problems",
+    "severity": "Critical"
+  },
+  "recommendations": [
+    "\ud83d\udfe1 MEDIUM: Minor improvements recommended",
+    "\ud83d\udc1b BUG TYPE: Concurrency problems - Synchronization",
+    "\ud83d\udd17 NESTING: Deep nesting - extract methods",
+    "\ud83d\udcdd DOCUMENTATION: Add more comments",
+    "\u26a0\ufe0f ERROR HANDLING: Add proper error handling"
+  ],
+  "metrics_breakdown": {
+    "size_metrics": {
+      "lines_of_code": 52,
+      "function_count": 12,
+      "class_count": 1
+    },
+    "complexity_metrics": {
+      "cyclomatic_complexity": 2.0,
+      "branch_count": 12,
+      "nested_conditions": 0,
+      "loop_complexity": 4
+    },
+    "quality_metrics": {
+      "comment_density": 0.0,
+      "error_handling": 0,
+      "brace_depth": 5,
+      "py_max_indent": 0
+    },
+    "pattern_metrics": {
+      "imports_count": 1,
+      "api_calls": 17,
+      "null_checks": 0,
+      "pointer_ops": false
+    }
+  },
+  "research_insights": {
+    "prediction_confidence": 0.6075,
+    "feature_importance": {
+      "nesting": "HIGH"
+    },
+    "anomaly_detection": [],
+    "pattern_analysis": {
+      "has_error_handling": false,
+      "has_comments": false,
+      "is_well_structured": false,
+      "has_proper_documentation": false,
+      "follows_best_practices": false
+    },
+    "research_metrics": {
+      "bug_probability": 0.28463698652686586,
+      "quality_score": 80.07541094311938,
+      "dominant_factor": "model",
+      "total_risk": 0.1992458905688061
+    }
+  }
+}

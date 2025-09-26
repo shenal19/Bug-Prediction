@@ -1,0 +1,5 @@
+file,bug_probability,quality_score,loc,v(g),branchCount,uniq_Op,total_Op,total_Opnd
+sample_project\a.py,0.0011083478405040205,99.92241565116473,1,0,0,1,1,1
+sample_project\c.c,0.0011083478405040205,99.92241565116473,1,0,0,1,1,1
+sample_project\d.cpp,0.0011083478405040205,99.92241565116473,1,0,0,1,1,1
+sample_project\GraphAlgo.java,0.0011083478405040205,99.92241565116473,1,0,0,1,1,1
